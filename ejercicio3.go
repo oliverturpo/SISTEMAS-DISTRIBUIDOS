@@ -14,12 +14,10 @@ func main() {
 		estado = true
 	)
 
-	// Declarar edad ANTES de usarla
 	var edad int = 22
 	var temperatura float64 = 37.0
 	var aprobado bool = true
 
-	// Ahora sí podemos usar edad aquí
 	fmt.Println(nombre, nombre2, peso, altura, edad, estado)
 	fmt.Println(edad, temperatura, aprobado)
 }
