@@ -22,7 +22,7 @@ func main() {
 		fmt.Println("Recibi el nombre: ", nombre)
 
 		//enviar saludo al cliente
-		respuesta := "Hola " + nombre + "Bienvenido a sistema de Distribucion"
+		respuesta := "Hola " + nombre + " Bienvenido a sistema de Distribucion "
 		conn.Write([]byte(respuesta))
 		fmt.Println("Enviar Saludo")
 		conn.Close()
